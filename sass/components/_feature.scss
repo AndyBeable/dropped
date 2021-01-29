@@ -1,0 +1,71 @@
+.section__feature {
+  background-image: url('/assets/img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.entry {
+  position: relative;
+  top: 3rem;
+  margin: 0rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-5px);
+  }
+
+  &__img {
+    background-image: radial-gradient(
+        rgba(245, 246, 252, 0.137),
+        rgba(26, 24, 25, 0.73)
+      ),
+      url(/assets/img/2.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+  }
+
+  &__img::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__textbox {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  grid-area: featured;
+}
+
+.feature-small-1 {
+  grid-area: feature-small-1;
+}
+
+.feature-small-2 {
+  grid-area: feature-small-2;
+}
+
+.grid-container {
+  @media screen and (min-width: 1000px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      'featured featured featured feature-small-1'
+      'featured featured featured feature-small-2'
+      '. . . .';
+  }
+}

@@ -1,0 +1,11 @@
+.entry {
+  &__header {
+    color: $color-yellow;
+  }
+
+  &__copy {
+    color: $color-gray;
+    font-size: 1rem;
+    width: 50%;
+  }
+}
