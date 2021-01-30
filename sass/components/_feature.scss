@@ -1,33 +1,76 @@
 .section__feature {
-  background-image: url('/assets/img/hero.jpg');
+  background-image: url('/assets/img/hero-stage.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 60vh;
+  min-height: 40vh;
 }
 
 .entry {
   position: relative;
   top: 3rem;
-  margin: 0rem 1.5rem;
+  margin: 0rem 1rem 1rem 1rem;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 
-  // &:hover {
-  //   opacity: 0.9;
-  //   transform: translateY(-5px);
-  // }
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-5px);
+  }
 
   &__img {
     background-image: radial-gradient(
         rgba(245, 246, 252, 0.137),
         rgba(26, 24, 25, 0.73)
       ),
-      url(/assets/img/1.jpg);
+      url(/assets/img/green.jpg);
 
     background-position: center;
     background-size: cover;
-    height: 20rem;
+    height: 31rem;
+  }
+
+  // &__img::after {
+  //   display: block;
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
+  &__textbox {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  grid-area: featured;
+}
+
+.feature-small-1 {
+  position: relative;
+  top: 3rem;
+  margin: 0rem 1rem 1rem 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-5px);
+  }
+
+  &__img {
+    background-image: radial-gradient(
+        rgba(245, 246, 252, 0.137),
+        rgba(26, 24, 25, 0.73)
+      ),
+      url(/assets/img/handlebars.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
   }
 
   &__img::after {
@@ -46,14 +89,50 @@
     left: 1rem;
   }
 
-  grid-area: featured;
-}
-
-.feature-small-1 {
   grid-area: feature-small-1;
 }
 
 .feature-small-2 {
+  position: relative;
+  top: 3rem;
+  margin: 0rem 1rem 1rem 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-5px);
+    perspective: 100px;
+  }
+
+  &__img {
+    background-image: radial-gradient(
+        rgba(245, 246, 252, 0.137),
+        rgba(26, 24, 25, 0.73)
+      ),
+      url(/assets/img/wiggo.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+  }
+
+  &__img::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__textbox {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
   grid-area: feature-small-2;
 }
 
@@ -62,10 +141,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
+    gap: 10px 0px;
     grid-template-areas:
       'featured featured featured feature-small-1'
-      'featured featured featured feature-small-2'
-      '. . . .';
+      'featured featured featured feature-small-2';
   }
 }
