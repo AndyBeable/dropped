@@ -1,0 +1,14 @@
+.btn {
+  color: $color-white;
+  border: 2px solid $color-yellow;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  outline: none;
+  font-size: 10px;
+}
+
+.btn:hover {
+  color: $color-navy;
+  background-color: $color-yellow;
+  border: 2px solid $color-yellow;
+}

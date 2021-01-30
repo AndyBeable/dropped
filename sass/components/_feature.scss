@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 60vh;
 }
 
 .entry {
@@ -13,17 +13,17 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 
-  &:hover {
-    opacity: 0.9;
-    transform: translateY(-5px);
-  }
+  // &:hover {
+  //   opacity: 0.9;
+  //   transform: translateY(-5px);
+  // }
 
   &__img {
     background-image: radial-gradient(
         rgba(245, 246, 252, 0.137),
         rgba(26, 24, 25, 0.73)
       ),
-      url(/assets/img/2.jpg);
+      url(/assets/img/1.jpg);
 
     background-position: center;
     background-size: cover;
