@@ -21,3 +21,28 @@
 .heading__tertiary {
   color: $color-navy;
 }
+
+.footer__heading {
+  color: $color-yellow;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Staatliches', cursive;
+}
+
+.brand__heading {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .brand__heading {
+    display: block;
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Staatliches', cursive;
+
+    &::first-letter {
+      color: $color-yellow;
+    }
+  }
+}
