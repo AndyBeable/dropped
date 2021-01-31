@@ -3,9 +3,23 @@
 }
 
 .post__img__container {
-  width: 50%;
+  width: 20rem;
 }
 
 .post__banner__img {
   width: 20rem;
+}
+
+.post__heading__container {
+  margin-bottom: 2rem;
+}
+
+.lead__intro {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.subhead::first-letter {
+  initial-letter: 2;
 }

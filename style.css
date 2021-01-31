@@ -22,7 +22,7 @@ ul {
   margin-bottom: 1rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid #f6c90e;
-  width: 50%;
+  width: 55%;
   margin: 0 auto; }
 
 .heading__tertiary {
@@ -51,10 +51,21 @@ ul {
   text-align: center; }
 
 .post__img__container {
-  width: 50%; }
+  width: 20rem; }
 
 .post__banner__img {
   width: 20rem; }
+
+.post__heading__container {
+  margin-bottom: 2rem; }
+
+.lead__intro {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 12px; }
+
+.subhead::first-letter {
+  initial-letter: 2; }
 
 .btn {
   color: #ffffff;
@@ -283,9 +294,9 @@ ul {
   text-transform: uppercase; }
 
 .card-columns .card {
-  -webkit-box-shadow: 0px 7px 26px -4px rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0px 7px 26px -4px rgba(0, 0, 0, 0.34);
-  box-shadow: 0px 7px 26px -4px rgba(0, 0, 0, 0.34); }
+  -webkit-box-shadow: 0px 7px 26px -4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 7px 26px -4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 7px 26px -4px rgba(0, 0, 0, 0.1); }
 
 .post__link {
   text-decoration: none;
