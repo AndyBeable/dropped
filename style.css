@@ -6,6 +6,9 @@
 body {
   font-family: 'Playfair Display', sans-serif; }
 
+ul {
+  list-style: none; }
+
 .featured__tile__header {
   color: #f6c90e; }
 
@@ -44,13 +47,24 @@ body {
     .brand__heading::first-letter {
       color: #f6c90e; } }
 
+.post__heading {
+  text-align: center; }
+
+.post__img__container {
+  width: 50%; }
+
+.post__banner__img {
+  width: 20rem; }
+
 .btn {
   color: #ffffff;
   border: 2px solid #f6c90e;
   text-transform: uppercase;
   transition: all 0.5s ease;
   outline: none;
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1.5px; }
 
 .btn:hover {
   color: #343a40;
@@ -62,7 +76,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 40vh; }
+  min-height: 40rem; }
 
 .entry {
   position: relative;
@@ -71,14 +85,17 @@ body {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   grid-area: featured; }
+  @media screen and (min-width: 1000px) {
+    .entry {
+      margin: 0rem 0rem 0rem 1rem; } }
   .entry:hover {
     opacity: 0.9;
     transform: translateY(-5px); }
   .entry__img {
-    background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/green.jpg);
+    background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/green-race.jpg);
     background-position: center;
     background-size: cover;
-    height: 31rem; }
+    height: 32.2rem; }
   .entry__textbox {
     position: absolute;
     top: 1rem;
@@ -91,14 +108,20 @@ body {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   grid-area: feature-small-1; }
+  @media screen and (min-width: 1000px) {
+    .feature-small-1 {
+      margin: 0rem 1rem 0rem 0rem; } }
   .feature-small-1:hover {
     opacity: 0.9;
     transform: translateY(-5px); }
   .feature-small-1__img {
-    background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/handlebars.jpg);
+    background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/handlebars-v2.jpg);
     background-position: center;
     background-size: cover;
     height: 15rem; }
+    @media screen and (min-width: 1000px) {
+      .feature-small-1__img {
+        height: 16.1rem; } }
   .feature-small-1__img::after {
     display: block;
     content: '';
@@ -119,15 +142,21 @@ body {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   grid-area: feature-small-2; }
+  @media screen and (min-width: 1000px) {
+    .feature-small-2 {
+      margin: 0rem 1rem 0rem 0rem; } }
   .feature-small-2:hover {
     opacity: 0.9;
     transform: translateY(-5px);
     perspective: 100px; }
   .feature-small-2__img {
-    background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/wiggo.jpg);
+    background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/wiggo-v2.jpg);
     background-position: center;
     background-size: cover;
     height: 15rem; }
+    @media screen and (min-width: 1000px) {
+      .feature-small-2__img {
+        height: 16.1rem; } }
   .feature-small-2__img::after {
     display: block;
     content: '';
@@ -145,8 +174,7 @@ body {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px 0px;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 'featured featured featured feature-small-1' 'featured featured featured feature-small-2'; } }
 
 .navbar-brand {
@@ -189,9 +217,6 @@ body {
   .footer__copyright {
     text-align: center;
     font-size: 12px; }
-  .footer__quick__links ul,
-  .footer__social__links ul {
-    list-style: none; }
   .footer__quick__links {
     margin: 0rem 2rem 3rem 0rem; }
     @media screen and (min-width: 600px) {
