@@ -210,6 +210,48 @@ a:hover {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'featured featured featured feature-small-1' 'featured featured featured feature-small-2'; } }
 
+.post__sign__up {
+  text-align: center; }
+
+form {
+  background: #f6c90e;
+  padding: 2rem 2rem;
+  border-radius: 5px; }
+
+.form__header {
+  text-transform: uppercase;
+  letter-spacing: 1.5px; }
+
+.form__description {
+  font-size: 0.8rem; }
+
+.form__input {
+  display: flex;
+  align-items: center; }
+
+.form__button {
+  border: none; }
+
+#email {
+  width: 75%;
+  padding: 3px 4px;
+  border-radius: 5px 0 0 5px; }
+
+#submit {
+  font-size: 11px;
+  color: #343a40;
+  text-transform: uppercase;
+  border-radius: 0 5px 5px 0;
+  width: 25%;
+  padding: 7px 3px;
+  transition: background 0.3s ease-in-out; }
+
+#submit:hover {
+  background-color: #343a40; }
+
+input::placeholder {
+  padding-left: 10px; }
+
 .navbar-brand {
   color: #ffffff;
   text-transform: uppercase;
@@ -228,7 +270,10 @@ a:hover {
 .post__lead__intro {
   font-weight: bold;
   letter-spacing: 1px;
-  font-size: 12px; }
+  font-size: 1rem; }
+
+.post__copy {
+  color: #343a40; }
 
 .post__img__container {
   margin-top: 2rem;
@@ -241,7 +286,9 @@ a:hover {
   width: 100%; }
 
 .vid {
-  width: 100%; }
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .footer {
   background-color: #343a40;

@@ -1,0 +1,52 @@
+.post__sign__up {
+  text-align: center;
+}
+
+form {
+  background: $color-yellow;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+}
+
+.form {
+  &__header {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  &__description {
+    font-size: 0.8rem;
+  }
+
+  &__input {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    border: none;
+  }
+}
+
+#email {
+  width: 75%;
+  padding: 3px 4px;
+  border-radius: 5px 0 0 5px;
+}
+
+#submit {
+  font-size: 11px;
+  color: $color-navy;
+  text-transform: uppercase;
+  border-radius: 0 5px 5px 0;
+  width: 25%;
+  padding: 7px 3px;
+  transition: background 0.3s ease-in-out;
+}
+#submit:hover {
+  background-color: $color-navy;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}

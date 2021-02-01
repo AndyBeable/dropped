@@ -2,7 +2,11 @@
   &__lead__intro {
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 1rem;
+  }
+
+  &__copy {
+    color: $color-navy;
   }
 
   &__img__container {
@@ -21,4 +25,6 @@
 
 .vid {
   width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
