@@ -6,6 +6,7 @@ form {
   background: $color-yellow;
   padding: 2rem 2rem;
   border-radius: 5px;
+  box-shadow: 0px 6px 38px -1px rgba(0, 0, 0, 0.52);
 }
 
 .form {
@@ -47,6 +48,7 @@ form {
 }
 #submit:hover {
   background-color: $color-navy;
+  color: $color-white;
 }
 
 input::placeholder {
