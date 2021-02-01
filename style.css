@@ -9,18 +9,32 @@ body {
 ul {
   list-style: none; }
 
-.featured__tile__header {
-  color: #f6c90e; }
+a {
+  color: #ffffff;
+  text-decoration: none; }
 
-.featured__tile__copy {
-  color: #eeeeee;
-  font-size: 1rem;
-  width: 50%; }
+a:hover {
+  text-decoration: none;
+  color: #ffffff; }
+
+.heading__primary {
+  color: #f6c90e; }
+  @media screen and (min-width: 800px) {
+    .heading__primary {
+      font-size: 3rem; } }
+  .heading__primary__copy {
+    color: #eeeeee;
+    font-size: 1rem;
+    width: 50%; }
+    @media screen and (min-width: 800px) {
+      .heading__primary__copy {
+        font-size: 1rem;
+        width: 65%; } }
 
 .heading__secondary {
   color: #343a40;
   margin-bottom: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   border-bottom: 2px solid #f6c90e;
   width: 55%;
   margin: 0 auto; }
@@ -76,6 +90,17 @@ ul {
   font-size: 10px;
   font-family: 'Staatliches', cursive;
   letter-spacing: 1.5px; }
+  @media screen and (min-width: 800px) {
+    .btn {
+      padding: 1rem 3rem;
+      font-size: 1rem;
+      letter-spacing: 5px; } }
+
+@media screen and (min-width: 1000px) {
+  .btn-sml {
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 3px; } }
 
 .btn:hover {
   color: #343a40;
@@ -111,6 +136,9 @@ ul {
     position: absolute;
     top: 1rem;
     left: 1rem; }
+    @media screen and (min-width: 800px) {
+      .entry__textbox {
+        width: 60%; } }
 
 .feature-small-1 {
   position: relative;
@@ -157,9 +185,8 @@ ul {
     .feature-small-2 {
       margin: 0rem 1rem 0rem 0rem; } }
   .feature-small-2:hover {
-    opacity: 0.9;
-    transform: translateY(-5px);
-    perspective: 100px; }
+    opacity: 0.8;
+    transform: translateY(-5px); }
   .feature-small-2__img {
     background-image: radial-gradient(rgba(245, 246, 252, 0.137), rgba(26, 24, 25, 0.73)), url(/assets/img/wiggo-v2.jpg);
     background-position: center;

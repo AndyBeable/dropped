@@ -7,6 +7,20 @@
   font-size: 10px;
   font-family: 'Staatliches', cursive;
   letter-spacing: 1.5px;
+
+  @media screen and (min-width: 800px) {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    letter-spacing: 5px;
+  }
+}
+
+.btn-sml {
+  @media screen and (min-width: 1000px) {
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
 }
 
 .btn:hover {

@@ -38,6 +38,10 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
+
+    @media screen and (min-width: 800px) {
+      width: 60%;
+    }
   }
 
   grid-area: featured;
@@ -106,9 +110,8 @@
   }
 
   &:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     transform: translateY(-5px);
-    perspective: 100px;
   }
 
   &__img {
