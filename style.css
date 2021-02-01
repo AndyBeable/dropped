@@ -220,7 +220,9 @@ form {
 
 .form__header {
   text-transform: uppercase;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+  font-family: 'Staatliches', cursive; }
 
 .form__description {
   font-size: 0.8rem; }
@@ -266,6 +268,20 @@ input::placeholder {
 .nav-link {
   color: #ffffff;
   text-transform: uppercase; }
+
+.post__details {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.post__date {
+  font-size: 10px;
+  margin-right: 1.5rem; }
+
+.post__cat {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'Staatliches', cursive; }
 
 .post__lead__intro {
   font-weight: bold;
