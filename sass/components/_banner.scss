@@ -1,25 +1,20 @@
-.post__heading {
-  text-align: center;
-}
+.post {
+  &__heading {
+    text-align: center;
+  }
 
-.post__img__container {
-  width: 20rem;
-}
+  &__img__container {
+    width: 20rem;
+  }
+  &__banner__img {
+    width: 20rem;
+  }
 
-.post__banner__img {
-  width: 20rem;
-}
+  &__heading__container {
+    margin-bottom: 2rem;
+  }
 
-.post__heading__container {
-  margin-bottom: 2rem;
-}
-
-.lead__intro {
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 12px;
-}
-
-.subhead::first-letter {
-  initial-letter: 2;
+  .subhead::first-letter {
+    initial-letter: 2p;
+  }
 }
