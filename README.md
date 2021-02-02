@@ -11,3 +11,8 @@ The project itself combines a mix of flexbox, grid as well other layout features
 # Screenshot
 
 <img src="https://user-images.githubusercontent.com/56599475/106637185-4a2fe380-657a-11eb-883d-3ef8de10601c.png">
+
+# Further considerations
+
+- In the future I would like to add potentially a section using the Strava API, as well as map feature on the About Page.
+- Addition of a subscription page with pricing matrix.
