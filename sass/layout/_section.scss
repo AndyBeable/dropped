@@ -1,11 +1,15 @@
 .container {
-  margin: 4rem 0rem;
+  margin: 4rem auto;
 
   @media screen and (min-width: 600px) {
     max-width: 100%;
   }
+}
 
-  @media screen and (min-width: 576px) {
-    margin: 4rem auto;
+.post__container {
+  margin: 4rem auto;
+
+  @media screen and (min-width: 1100px) {
+    max-width: 70%;
   }
 }
