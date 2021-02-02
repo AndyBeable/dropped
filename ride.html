@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -73,7 +74,11 @@
     </header>
     <main>
       <section class="container post__container">
-        <div class="post__heading__container">
+        <div
+          class="post__heading__container"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="post__heading">
             <h1>Ride With A Difference.</h1>
             <ul class="post__details">
@@ -90,7 +95,11 @@
           </div>
         </div>
 
-        <div class="post__lead__intro">
+        <div
+          class="post__lead__intro"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <p class="post__subhead">
             The team classification is assessed by adding the time of each
             team's best three riders each day. The competition does not have its
@@ -100,14 +109,18 @@
             helmets.
           </p>
         </div>
-        <div class="post__content">
+        <div class="post__content" data-aos="fade-up" data-aos-duration="1000">
           <p class="post__copy">
             There has been an intermediate sprints classification, which from
             1984 awarded a red jersey but the intermediate sprints have
             remained, offering points for the points classification and, until
             2007, time bonuses for the general classification.
           </p>
-          <div class="post__img__container">
+          <div
+            class="post__img__container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <img src="/assets/img/tour.jpg" alt="" class="post__banner__img" />
           </div>
           <p class="post__copy">
@@ -207,7 +220,10 @@
         <div class="copyright__text">&#169; Copyright Dropped 2021</div>
       </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -74,7 +75,7 @@
     <main>
       <section class="section__feature">
         <div class="grid-container">
-          <div class="entry">
+          <div class="entry" data-aos="fade-in" data-aos-duration="1000">
             <div class="entry__img"></div>
             <div class="entry__textbox">
               <h3 class="heading__primary">Ride With A Difference.</h3>
@@ -85,7 +86,11 @@
               <a href="/ride.html" class="btn">Read more</a>
             </div>
           </div>
-          <div class="feature-small-1">
+          <div
+            class="feature-small-1"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
             <div class="feature-small-1__img"></div>
             <div class="feature-small-1__textbox">
               <h3 class="heading__primary">Safety First.</h3>
@@ -96,7 +101,11 @@
               <a href="/ride.html" class="btn btn-sml">Read more</a>
             </div>
           </div>
-          <div class="feature-small-2">
+          <div
+            class="feature-small-2"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
             <div class="feature-small-2__img"></div>
             <div class="feature-small-2__textbox">
               <h3 class="heading__primary">Wiggo's Record.</h3>
@@ -110,7 +119,11 @@
         </div>
       </section>
       <!--------------------------------- POSTS --------------------------->
-      <section class="section__posts container">
+      <section
+        class="section__posts container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div class="section__post__heading">
           <h2 class="heading__secondary">Latest Posts</h2>
         </div>
@@ -332,7 +345,10 @@
         <div class="copyright__text">&#169; Copyright Dropped 2021</div>
       </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
