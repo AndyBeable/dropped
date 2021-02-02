@@ -101,6 +101,12 @@ a:hover {
   text-align: center;
   margin-bottom: 2rem; }
 
+.about__stats__staff {
+  margin-right: 2rem; }
+
+.about__stats__founded {
+  margin-right: 2rem; }
+
 .find__us {
   width: 90%;
   margin: auto; }
