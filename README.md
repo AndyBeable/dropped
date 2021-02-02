@@ -1,4 +1,5 @@
 # About Dropped
+https://dropped.vercel.app/index.html
 Based on a ficitious cycling company, Dropped is a elegant blog site covering all things cycling.
 
 # Why Dropped?
