@@ -8,3 +8,4 @@ The project itself combines a mix of flexbox, grid as well other layout features
 # Features
 - Implementation of AOS library, to give a light-weight, but visually appealing effect as the content loads.
 
+https://user-images.githubusercontent.com/56599475/106637185-4a2fe380-657a-11eb-883d-3ef8de10601c.png
