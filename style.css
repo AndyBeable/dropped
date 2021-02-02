@@ -64,15 +64,6 @@ a:hover {
 .post__heading {
   text-align: center; }
 
-.post__img__container {
-  width: 20rem; }
-
-.post__banner__img {
-  width: 20rem; }
-
-.post__heading__container {
-  margin-bottom: 2rem; }
-
 .post .subhead::first-letter {
   initial-letter: 2p; }
 
@@ -211,7 +202,8 @@ a:hover {
     grid-template-areas: 'featured featured featured feature-small-1' 'featured featured featured feature-small-2'; } }
 
 .post__sign__up {
-  text-align: center; }
+  text-align: center;
+  width: 20rem; }
 
 form {
   background: #f6c90e;
@@ -233,7 +225,8 @@ form {
   align-items: center; }
 
 .form__button {
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 #email {
   width: 75%;
@@ -294,11 +287,11 @@ input::placeholder {
   color: #343a40; }
 
 .post__img__container {
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin: 2rem auto; }
 
-.post__img {
-  width: 20rem; }
+.post__banner__img {
+  width: 100%;
+  height: auto; }
 
 .post__video {
   width: 100%; }

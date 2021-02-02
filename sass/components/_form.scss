@@ -1,5 +1,6 @@
 .post__sign__up {
   text-align: center;
+  width: 20rem;
 }
 
 form {
@@ -28,6 +29,7 @@ form {
 
   &__button {
     border: none;
+    cursor: pointer;
   }
 }
 
