@@ -53,3 +53,17 @@
     }
   }
 }
+
+// ---- ABOUT ---- //
+
+.hero__heading__main {
+  font-family: 'Staatliches', cursive;
+  color: $color-white;
+  font-size: 4rem;
+  padding-bottom: 5px;
+  border-bottom: 4px solid $color-yellow;
+
+  &::first-letter {
+    color: $color-yellow;
+  }
+}

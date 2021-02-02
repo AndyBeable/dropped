@@ -1,0 +1,21 @@
+.hero {
+  &__container {
+    background-image: url(/assets/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__heading__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 10rem;
+  }
+}

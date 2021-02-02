@@ -61,6 +61,15 @@ a:hover {
     .brand__heading::first-letter {
       color: #f6c90e; } }
 
+.hero__heading__main {
+  font-family: 'Staatliches', cursive;
+  color: #ffffff;
+  font-size: 4rem;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #f6c90e; }
+  .hero__heading__main::first-letter {
+    color: #f6c90e; }
+
 .post__heading {
   text-align: center; }
 
@@ -251,6 +260,23 @@ form {
 
 input::placeholder {
   padding-left: 10px; }
+
+.hero__container {
+  background-image: url(/assets/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh; }
+
+.hero__img {
+  width: 100%;
+  height: auto; }
+
+.hero__heading__container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 10rem; }
 
 .navbar-brand {
   color: #ffffff;
